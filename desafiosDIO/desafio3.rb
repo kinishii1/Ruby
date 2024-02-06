@@ -17,5 +17,6 @@ b = line[1].to_i
 # 840 11	                          76.36
 # 1 50	                            0.02
 
-puts BigDecimal.new((a.to_f / b.to_f).round(2).to_s)
+media = a.to_f / b
 
+puts "%.2f" % media
